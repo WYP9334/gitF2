@@ -1,4 +1,4 @@
-//fifo_w.c写端
+//fifo_w.c写端，往有名管道写入数据
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
