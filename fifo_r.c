@@ -1,4 +1,4 @@
-﻿//fifo_r.c读端
+﻿//fifo_r.c读端，从管道读取数据
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
