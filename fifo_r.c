@@ -1,4 +1,4 @@
-﻿//fifo_r.c
+﻿//fifo_r.c读端
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>

@@ -1,4 +1,4 @@
-//fifo_w.c
+//fifo_w.c–¥∂À
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
