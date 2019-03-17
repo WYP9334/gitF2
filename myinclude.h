@@ -8,6 +8,9 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <pthread.h>
+#include <semaphore.h>
+
+#define NUM     5
 
 void sys_err(char *str, int exitno)
 {
