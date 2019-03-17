@@ -9,6 +9,7 @@
 #include <unistd.h>
 #include <pthread.h>
 #include <semaphore.h>
+#include <fcntl.h>
 
 #define NUM     5
 
