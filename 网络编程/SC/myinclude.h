@@ -1,3 +1,4 @@
+#include "wrap.h"
 #include <stdio.h>
 #include <sys/types.h>
 #include <signal.h>
@@ -17,9 +18,3 @@
 
 #define SERVER_PORT     8000
 #define NUM     5
-
-void sys_err(char *str, int exitno)
-{
-	perror(str);
-	exit(exitno);
-}
