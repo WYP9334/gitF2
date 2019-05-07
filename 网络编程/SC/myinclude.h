@@ -19,6 +19,11 @@
 #define SERVER_PORT     8000
 #define NUM     5
 
+void catch_sigalrm(int signo)
+{
+	;
+}
+
 unsigned int mysleep(unsigned int seconds)
 {
 	int ret;
