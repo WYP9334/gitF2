@@ -20,10 +20,12 @@ void swap(int *t1, int *t2)
 void bubble_sort_asc(int arr[], int len)
 {
 	int i, j;
- 
-	for (i = 0; i < len -1; i++) {
+	bool orderly = false;
+	for (i = 0; i < len -1 && !orderly; i++) {
+		orderly = true;
 		for (j = 0; j < len -1 -i; j++) {
 			if (arr[j] > arr[j + 1]) {  //将大的往后排
+				orderly = false;
 				swap(&arr[j], &arr[j + 1]);
 			}
 		}
@@ -33,10 +35,12 @@ void bubble_sort_asc(int arr[], int len)
 void bubble_sort_des(int arr[], int len)
 {
 	int i, j;
- 
+	bool orderly = false;
 	for (i = 0; i < len -1; i++) {
+		orderly = true;
 		for (j = 0; j < len -1 -i; j++) {
 			if (arr[j] < arr[j + 1]) {   //将小的往后排
+				orderly = false;
 				swap(&arr[j], &arr[j + 1]);
 			}
 		}
@@ -46,10 +50,12 @@ void bubble_sort_des(int arr[], int len)
 //void bubble_sort_asc(int arr[], int len)
 //{
 //	int i, j;
-// 
+// 	bool orderly = false;
 //	for (i = 0; i < len - 1; i++) {
+//		orderly = true;
 //		for (j = len - 1; j > i ; j--) {
 //			if (arr[j - 1] > arr[j]) {    //将小的往前排
+//				orderly = false;
 //				swap(&arr[j - 1], &arr[j]);
 //			}
 //		}
@@ -58,10 +64,12 @@ void bubble_sort_des(int arr[], int len)
 //void bubble_sort_des(int arr[], int len)
 //{
 //	int i, j;
-// 
+// 	bool orderly = false;
 //	for (i = 0; i < len - 1; i++) {
+//		orderly = true;
 //		for (j = len - 1; j > i ; j--) {
 //			if (arr[j - 1] < arr[j]) {    //将小的往前排
+//				orderly = false;
 //				swap(&arr[j - 1], &arr[j]);
 //			}
 //		}
