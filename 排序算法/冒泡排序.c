@@ -46,7 +46,7 @@ void bubble_sort_des(int arr[], int len)
 		}
 	}
 }
-/*从前面开始对比排序*/
+/*从后面开始对比排序*/
 //void bubble_sort_asc(int arr[], int len)
 //{
 //	int i, j;
