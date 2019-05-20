@@ -7,8 +7,8 @@ int main(){
 	char *p;
 	p=(char*)&a;
 	if(*p==0x78)
-		printf("The little endian\n");
+		printf("The little endian\n");  //低地址存在低位
 	else
-		printf("The big endian\n");
+		printf("The big endian\n");   //低地址存在高位
 	return 0;
 }
