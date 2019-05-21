@@ -9,7 +9,7 @@ void selectionSort(int *num, int len)  //选择排序升序排列
 {
 	int i, j, temp, minIndex;
 
-	for (i = 0; i < len; i++) {
+	for (i = 0; i < len - 1; i++) {
 		minIndex = i;
 		for (j = i + 1; j < len; j++) {
 			if (num[j] < num[minIndex]) {  //降序>
