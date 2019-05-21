@@ -1,4 +1,4 @@
-/*插入排序思路：
+﻿/*插入排序思路：
 1. 从第一个元素开始，该元素可以认为已经被排序
 2. 取出下一个元素，在已经排序的元素序列中从后向前扫描
 3. 如果该元素（已排序）大于新元素，将该元素移到下一位置
@@ -13,7 +13,7 @@ void insertSort(int *num, int len)
 	int i, j, temp;
 	for (i = 1; i < len; i++) {
 		j = i - 1;
-		temp = num[i];
+		temp = num[i];                           //temp存储新元素
 		while(num[j] > temp && j >= 0) {//升序排序，降序排序需要num[j] < temp
 			num[j + 1] = num[j];
 			j--;
