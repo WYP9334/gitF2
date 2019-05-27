@@ -12,11 +12,8 @@ void insertSort(int *num, int len)
 {
 	int i, j, temp;
 	for (i = 1; i < len; i++) {
-		j = i - 1;
-		temp = num[i];                           //temp存储新元素
-		while(num[j] > temp && j >= 0) {//升序排序，降序排序需要num[j] < temp
+		for (j = i - 1, temp = num[i]; num[j] > temp && j >= 0, j--) { //升序排序，降序排序需要num[j] < temp
 			num[j + 1] = num[j];
-			j--;
 		}
 		num[++j] = temp;
 	}
