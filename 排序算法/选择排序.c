@@ -16,7 +16,7 @@ void selectionSort(int *num, int len)  //选择排序升序排列
 				minIndex = j;
 			}
 		}
-		if (num[minIndex] < num[i]) {      //降序>
+		if (minIndex = i) {      //降序>
 			temp = num[minIndex];
 			num[minIndex] = num[i];
 			num[i] = temp;
