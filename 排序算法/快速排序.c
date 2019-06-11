@@ -11,7 +11,39 @@
 (3) 递归地把"基准值前面的子数列"和"基准值后面的子数列"进行排序。
 */
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
+//基准值随机
+void quickSort(int *arr, int r, int l)
+{
+	int i = r, j = l, temp, k;
+
+	if (i < j) {
+		k = rand() % (j - i + 1) + i - 1;
+		temp = arr[k];
+		while(i < j) {
+			while(arr[j] >= temp && k < j) {
+				j--;
+			}
+			if (k < j) {
+				arr[k] = arr[j];
+				k = j;
+			}
+			while(arr[i] <= temp && i < k) {
+				i++;
+			}
+			if (i < k) {
+				arr[k] = arr[i];
+				k = i;
+			}
+		}
+		arr[k] = temp;
+		quickSort(arr, r, k - 1);
+		quickSort(arr, k + 1, l);
+	}
+}
+/*//基准值选第一个
 void quickSort(int *arr, int l, int r)
 {
 	if(l < r) {
@@ -36,7 +68,7 @@ void quickSort(int *arr, int l, int r)
 		quickSort(arr, l, i - 1);
 		quickSort(arr, i + 1, r);
 	}
-}
+}*/
 
 void test(int arr[], int sz)
 {
@@ -46,6 +78,7 @@ void test(int arr[], int sz)
 }
 int main()
 {
+	srand((unsigned)time(NULL));
 	int arr[] = { 2, 5, 6, 1, 8, 0, 4, 6, 8, 7, 9, 6};
 	int sz = sizeof(arr) / sizeof(arr[0]);
 	printf("未排序的数组:>  ");
