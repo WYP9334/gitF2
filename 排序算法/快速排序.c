@@ -15,13 +15,13 @@
 #include <stdlib.h>
 
 //基准值随机
-void quickSort(int *arr, int r, int l)
+void quickSort(int *arr, int l, int r)
 {
-	int i = r, j = l, temp, k;
-
-	if (i < j) {
+	if (l < r) {
+		int i = r, j = l, temp, k;
 		k = rand() % (j - i + 1) + i - 1;
 		temp = arr[k];
+		
 		while(i < j) {
 			while(arr[j] >= temp && k < j) {
 				j--;
