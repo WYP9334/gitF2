@@ -1,0 +1,37 @@
+﻿生成启动时间为 2019/7/2 18:31:04。
+     1>项目“E:\笔记\VS_Code\unit_0\wyp\wyp\wyp.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\wyp.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\WypFirst\wypfirst\全局_局部_小端.cpp" "..\..\..\WypFirst\wypfirst\内联函数.cpp"
+         内联函数.cpp
+         全局_局部_小端.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\笔记\VS_Code\unit_0\wyp\Debug\wyp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\wyp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\笔记\VS_Code\unit_0\wyp\Debug\wyp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\笔记\VS_Code\unit_0\wyp\Debug\wyp.lib" /MACHINE:X86 Debug\wyp.exe.embed.manifest.res
+         "Debug\全局_局部_小端.obj"
+         "Debug\内联函数.obj"
+         "Debug\实现ls.obj"
+         "Debug\小Q和牛妹.obj"
+         "Debug\虚函数的特点.obj"
+         "Debug\虚继承.obj"
+         "Debug\拷贝构造函数.obj"
+         "Debug\深信服.obj"
+         "Debug\深拷贝.obj"
+         "Debug\算法.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\wyp.exe.embed.manifest" /manifest Debug\wyp.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         wyp.vcxproj -> E:\笔记\VS_Code\unit_0\wyp\Debug\wyp.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\wyp.unsuccessfulbuild”。
+         正在对“Debug\wyp.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\笔记\VS_Code\unit_0\wyp\wyp\wyp.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.02

@@ -1,0 +1,12 @@
+digraph "evdns_base_resolve_reverse"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20 [label="evdns_base_resolve\l_reverse",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node20 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="evutil_snprintf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$util_8h.html#a198e8db3626746515792e28b1380be67",tooltip=" "];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="evutil_vsnprintf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$util_8h.html#a30bbdc509d150e5dfac1f74dd4e4c212",tooltip=" "];
+}

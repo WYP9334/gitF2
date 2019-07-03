@@ -1,0 +1,11 @@
+digraph "E:/笔记/libevent-2.1.8-stable/sample" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_377e8ef8e80a313d1c3a754eb3f26a1b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libevent-2.1.8-stable" fontname="Helvetica", fontsize="10", URL="dir_377e8ef8e80a313d1c3a754eb3f26a1b.html"]
+  dir_288f92674700cc843e7daa8035c4ae51 [shape=box, label="sample", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_288f92674700cc843e7daa8035c4ae51.html"];
+  }
+  dir_5708c2d9d68deda293c436e4a44eaa6a [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_5708c2d9d68deda293c436e4a44eaa6a.html"];
+  dir_288f92674700cc843e7daa8035c4ae51->dir_5708c2d9d68deda293c436e4a44eaa6a [headlabel="30", labeldistance=1.5 headhref="dir_000009_000007.html"];
+}

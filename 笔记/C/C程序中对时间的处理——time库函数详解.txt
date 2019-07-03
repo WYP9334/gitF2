@@ -1,0 +1,50 @@
+
+
+下面是常用的基础知识点，后续如果碰到再添加！！！
+
+1.包含头文件：<time.h>
+
+2.time_t就是long(长整数类型），在time.h中定义为：typedef long time_t;   //思考在32和64位计算机上分别占几个字节？
+
+3.tm是一个结构体，在time.h中定义为：
+struct tm
+
+{
+
+	int tm_sec;/*代表目前秒数，正常范围为0-59，但允许至61秒*/
+
+	int tm_min;/*代表目前分数，范围0-59*/
+
+	int tm_hour;/*?从午夜算起的时数，范围为0-23*/
+
+	int tm_mday;/*目前月份的日数，范围01-31*/
+
+	int tm_mon;/*代表目前月份，从一月算起，范围从0-11*/
+
+	int tm_year;/*从1900 年算起至今的年数*/
+
+	int tm_wday;/*一星期的日数，从星期一算起，范围为0-6。*/
+
+	int tm_yday;/* Days in year.[0-365]*/
+
+	int tm_isdst;/*日光节约时间的旗标DST.[-1/0/1]*/
+
+};
+
+4.具体操作函数
+（1）time（）函数：time_t time(time_t *timer);
+	到这一刻的总秒数存在timer指针指向的内存中，也可以time_t variable = time(NULL);来获取总秒数。
+
+（2）gmtime()函数：struct tm *gmtime(time_t *timer);
+	将timer指针指向的内存中的秒数值转换成真实世界所使用的时间日期方式。
+
+（3）localtime()函数：struct tm *localtime(time_t *timer);
+	同（2），此函数已经进行过时区转化为本地时间。
+
+（4）asctime()函数：char *asctime(struct tm *p_tm_t);
+（5）ctime()函数：char *ctime(time_t *timer);
+	（4）和（5）的区别在参数列表中，一个接受指向tm结构体的指针，一个接受指向存储总秒数的指针。
+小结：（1）、（2）/（3）、（4）经常一起使用
+	（1）、（5）经常一起使用
+
+

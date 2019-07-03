@@ -1,0 +1,13 @@
+digraph "E:/笔记" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_885cc87fac2d91e269af0a5a959fa5f6 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="E:" fontname="Helvetica", fontsize="10", URL="dir_885cc87fac2d91e269af0a5a959fa5f6.html"]
+  subgraph clusterdir_e0737d9736c30754717c067382877683 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_e0737d9736c30754717c067382877683.html"];
+    dir_e0737d9736c30754717c067382877683 [shape=plaintext label="笔记"];
+    dir_377e8ef8e80a313d1c3a754eb3f26a1b [shape=box label="libevent-2.1.8-stable" color="red" fillcolor="white" style="filled" URL="dir_377e8ef8e80a313d1c3a754eb3f26a1b.html"];
+  }
+  }
+}

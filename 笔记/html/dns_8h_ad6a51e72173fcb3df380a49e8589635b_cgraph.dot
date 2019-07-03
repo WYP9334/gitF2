@@ -1,0 +1,12 @@
+digraph "evdns_add_server_port_with_base"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="evdns_add_server_port\l_with_base",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="event_assign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$event2_2event_8h.html#a71cbaa3e99d66d788985b25c7f53237d",tooltip=" "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="event_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$event2_2event_8h.html#ab0c85ebe9cf057be1aa17724c701b0c8",tooltip=" "];
+}

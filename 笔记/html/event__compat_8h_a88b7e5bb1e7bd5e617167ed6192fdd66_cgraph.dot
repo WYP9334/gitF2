@@ -1,0 +1,12 @@
+digraph "event_loopexit"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10 [label="event_loopexit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="event_once",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$event__compat_8h.html#aa7139d18495e80b2e31961c1c553d45e",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="event_base_once",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$event2_2event_8h.html#a5f4f70904b45eef26c4a8605fe706a32",tooltip=" "];
+}

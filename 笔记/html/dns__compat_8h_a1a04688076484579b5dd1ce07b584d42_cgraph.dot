@@ -1,0 +1,16 @@
+digraph "evdns_resolv_conf_parse"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node25 [label="evdns_resolv_conf_parse",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node25 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="evdns_base_new",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dns_8h.html#a4d6d4a705210aa58a4ad6bf810a4410e",tooltip=" "];
+  Node26 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="evutil_secure_rng_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$util_8h.html#a49ffe53dcbe32ad55f1582a0da358ac0",tooltip=" "];
+  Node26 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="evdns_getaddrinfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dns_8h.html#a28a4c5e6e22bcf92f8c229461023f914",tooltip=" "];
+  Node25 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="evdns_base_resolv_conf\l_parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dns_8h.html#a7e3a053e25ae7c045944a5db0947babb",tooltip=" "];
+}

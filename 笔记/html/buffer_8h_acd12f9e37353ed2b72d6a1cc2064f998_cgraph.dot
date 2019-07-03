@@ -1,0 +1,10 @@
+digraph "evbuffer_add_iovec"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="evbuffer_add_iovec",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="evbuffer_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$buffer_8h.html#a8abedc30187fe00d86b7b1cc4d3ce643",tooltip=" "];
+}

@@ -1,0 +1,14 @@
+digraph "evhttp_request_free"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node80 [label="evhttp_request_free",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node80 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node81 [label="evhttp_uri_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$http_8h.html#a656211357bacf7fae9d09d2d23f7f4b0",tooltip=" "];
+  Node80 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="evhttp_clear_headers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$http_8h.html#ad2399662cdf2e300251d4330c649ac77",tooltip=" "];
+  Node80 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="evbuffer_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$buffer_8h.html#ab255015b91f7b43ba09d8f9da54ed865",tooltip=" "];
+}

@@ -1,0 +1,12 @@
+digraph "evhttp_connection_new"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="evhttp_connection_new",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="evhttp_connection_base_new",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$http_8h.html#ae91224cfece07d01a029eb67e9053819",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="evhttp_connection_base\l_bufferevent_new",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$http_8h.html#ab6a2f82ff7323986705ead089a2d3f58",tooltip=" "];
+}

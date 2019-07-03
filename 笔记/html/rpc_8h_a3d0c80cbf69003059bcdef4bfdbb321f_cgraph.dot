@@ -1,0 +1,12 @@
+digraph "evrpc_send_request_generic"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node54 [label="evrpc_send_request\l_generic",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node54 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="evrpc_make_request_ctx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rpc_8h.html#a83b3d3ddadb971e808f5e37bc4eb61bc",tooltip=" "];
+  Node54 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="evrpc_make_request",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rpc_8h.html#a1bc336c8cb4b87e77fd35c697420b3c5",tooltip=" "];
+}

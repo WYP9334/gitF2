@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vectorSizeCapacity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aa.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="测试.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="callback.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="juzhen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="textCode2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="textCode1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="循环输出数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getchar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="friend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="const.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mystring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="noskipws.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pragma_pack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="qq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="static.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stringpoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strstr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test (2).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="this指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="代码练习.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="全局_局部_小端.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="内联函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="多态.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实现ls.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="小Q和牛妹.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="拷贝构造函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="深信服.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="深拷贝.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="虚函数的特点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="虚析构函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="虚继承.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="重载运算符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="默认拷贝构造.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Debug\wypfirst.exe.embed.manifest" />
+    <Manifest Include="Debug\wypfirst.exe.intermediate.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Debug\wypfirst_manifest.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Debug\1.obj" />
+  </ItemGroup>
+</Project>
